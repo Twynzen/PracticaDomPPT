@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-.cuadro {
+.interfaz {
     border: solid 1px black;
     position: absolute;
     left: 50%;
