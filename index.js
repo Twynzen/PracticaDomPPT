@@ -7,9 +7,9 @@ document.body.appendChild(interfaz);
 var opcion1Image = document.createElement('div');
 var opcion1 = document.createElement('button');
 var image1 = document.createElement('img');
-image1.setAttribute("src", "./") //imagen-gato
+image1.setAttribute("src", "./img/piedra.png") //imagen-gato
 image1.setAttribute("alt", "Gato de Piedra")
-image1.setAttribute("style", "width:100%") //ajustar
+image1.setAttribute("style", "width:10%") //ajustar
 opcion1Image.classList.add('gatoPiedra');
 opcion1.classList.add('btn');
 opcion1.innerHTML = 'Elegir';
@@ -21,9 +21,9 @@ interfaz.appendChild(opcion1Image);
 var opcion2Image = document.createElement('div');
 var opcion2 = document.createElement('button');
 var image2 = document.createElement('img');
-image2.setAttribute("src", "./") //imagen-gato
+image2.setAttribute("src", "./img/papel.png") //imagen-gato
 image2.setAttribute("alt", "Gato de Papel")
-image2.setAttribute("style", "width:100%") //ajustar
+image2.setAttribute("style", "width:10%") //ajustar
 opcion2Image.classList.add('gatoPapel');
 opcion2.classList.add('btn');
 opcion2.innerHTML = 'Elegir';
@@ -35,12 +35,12 @@ interfaz.appendChild(opcion2Image);
 var opcion3Image = document.createElement('div');
 var opcion3 = document.createElement('button');
 var image3 = document.createElement('img');
-image3.setAttribute("src", "./") //imagen-gato
+image3.setAttribute("src", "./img/tijera.png") //imagen-gato
 image3.setAttribute("alt", "Gato de Tijera")
-image3.setAttribute("style", "width:100%") //ajustar
+image3.setAttribute("style", "width:10%") //ajustar
 opcion3Image.classList.add('gatoTijera');
 opcion3.classList.add('btn');
-opcion3.innerHTML = 'Elegir';
+opcion3.innerHTML = '< img src = "tijera.png" > < /img>';
 opcion3.setAttribute('onclick', 'usuario(2);')
 opcion3Image.appendChild(image3);
 opcion3Image.appendChild(opcion3);
